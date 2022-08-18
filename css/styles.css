@@ -13,10 +13,10 @@ Grid Item Color (MAGENTA-PURPLE): #6F1E51;
 */
 
 :root {
-  --primary-color: #FFC0CB;
-  --button-background: #65124F;
+  --primary-color: #ffc0cb;
+  --button-background: #65124f;
   --button-color: #ffeaa7;
-  --grid-color: #6F1E51;
+  --grid-color: #6f1e51;
   --link-color: #66083a;
   --visited-link: #400040;
   --active-link: #881007;
@@ -32,26 +32,26 @@ Grid Item Color (MAGENTA-PURPLE): #6F1E51;
 
 body {
   background-color: var(--primary-color);
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
 
 h1 {
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
   font-size: 30px;
   font-weight: var(--header-font-weight);
 }
 
 h2 {
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
   font-size: 20px;
   font-weight: var(--header-font-weight);
 }
 
 h3 {
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
   font-size: 10px;
   font-weight: var(--header-font-weight);
 }
@@ -127,7 +127,7 @@ label {
 }
 
 .profile__portrait {
-  float:left;
+  float: left;
   width: 250px;
   height: auto;
   margin-right: 40px;
@@ -186,10 +186,10 @@ label {
   text-align: center;
 }
 
-@supports (display:grid) {
+@supports (display: grid) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     margin: 0 20px 0 20px;
     text-align: center;
@@ -225,7 +225,7 @@ label {
 
 @keyframes color-change {
   0% {
-    fill: var(--sun-color-start)
+    fill: var(--sun-color-start);
   }
   50% {
     fill: var(--sun-color-middle);
@@ -250,7 +250,7 @@ label {
   margin-right: auto;
   text-align: center;
   width: 700px;
-  height:  auto;
+  height: auto;
 }
 
 @keyframes cloud-move {
@@ -288,7 +288,7 @@ label {
     grid-template-columns: 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
