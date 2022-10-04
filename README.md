@@ -1,7 +1,5 @@
 # Portfolio Website
 
-<br>
-
 ## Description
 A responsive website using HTML and CSS that showcases my portfolio, which includes the projects that I built during my development program.
 
